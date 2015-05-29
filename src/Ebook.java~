@@ -1,0 +1,25 @@
+import java.io.*;
+/**
+ * Auto Generated Java Class.
+ */
+public class Ebook extends File_Multimediale implements Serializable {
+  
+  private int nr_pagine;
+  
+  public Ebook(String titolo,String autore,int anno,String pdfile,int nr_pagine) { 
+    super(titolo,autore,anno,pdfile);
+    this.nr_pagine = nr_pagine;
+  }
+  public String get_attributi()
+  {
+    return "\n Numero pagine:" + nr_pagine;
+  }
+  public void set_numPagine(int numPagine)
+  {
+    nr_pagine = numPagine;
+  }  
+  public void set_attributi(String [] valori)
+  {
+    nr_pagine = Integer.parseInt(valori[0]);
+  }
+}

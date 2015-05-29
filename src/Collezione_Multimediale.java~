@@ -1,0 +1,39 @@
+import java.util.Vector;
+import java.io.*;
+
+/**
+ * Auto Generated Java Class.
+ */
+public class Collezione_Multimediale<E> implements Serializable {
+  
+  private Vector<E> file;
+  private boolean salvata = true;
+  
+  public Collezione_Multimediale() { 
+    file = new Vector<E>(5);
+  }
+  public void add(E el)
+  {
+    file.add(el);
+  }
+ public void rimuovi(E el)
+ {
+   file.remove(el);
+ }
+ public E getEl(int index)
+ {
+   return (E)file.get(index);
+ }
+ public int size()
+ {
+   return file.size();
+ }
+ public void setSalva(boolean val)
+ {
+   salvata = val;
+ }
+ public boolean getSalvata()
+ {
+   return salvata;
+ }
+}

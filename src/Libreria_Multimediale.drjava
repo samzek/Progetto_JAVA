@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20130901-r5756">
+  <project autorefresh="false" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="Main_Multimedia.java" package="" timestamp="10-Feb-2014 18:50:37">
+        <select from="1276" to="1276"/>
+        <scroll column="9" row="0"/>
+      </file>
+      <file name="Ebook.java" package="" timestamp="10-Feb-2014 18:08:27">
+        <select from="1276" to="1276"/>
+        <scroll column="9" row="0"/>
+      </file>
+      <file name="File_Multimediale.java" package="" timestamp="10-Feb-2014 18:08:48">
+        <select from="1276" to="1276"/>
+        <scroll column="9" row="0"/>
+      </file>
+      <file name="Main_Panel.java" package="" timestamp="10-Feb-2014 18:09:31">
+        <select from="1276" to="1276"/>
+        <scroll column="9" row="0"/>
+      </file>
+      <file name="Collezione_Multimediale.java" package="" timestamp="10-Feb-2014 19:00:18">
+        <select from="1276" to="1276"/>
+        <scroll column="9" row="0"/>
+      </file>
+      <file name="JMusic.java" package="" timestamp="11-Feb-2014 14:55:59">
+        <select from="1276" to="1276"/>
+        <scroll column="9" row="0"/>
+      </file>
+      <file name="PanelModifica.java" package="" timestamp="11-Feb-2014 15:04:08">
+        <select from="1276" to="1276"/>
+        <scroll column="9" row="0"/>
+      </file>
+      <file name="West_Panel.java" package="" timestamp="11-Feb-2014 15:05:26">
+        <select from="1276" to="1276"/>
+        <scroll column="9" row="0"/>
+      </file>
+      <file name="North_Panel.java" package="" timestamp="11-Feb-2014 15:35:57">
+        <select from="1276" to="1276"/>
+        <scroll column="9" row="0"/>
+      </file>
+      <file name="Brani.java" package="" timestamp="11-Feb-2014 22:14:31">
+        <select from="1276" to="1276"/>
+        <scroll column="9" row="0"/>
+      </file>
+      <file name="InserPanel.java" package="" timestamp="11-Feb-2014 22:15:38">
+        <select from="1276" to="1276"/>
+        <scroll column="9" row="0"/>
+      </file>
+      <file name="Video.java" package="" timestamp="11-Feb-2014 22:15:56">
+        <select from="1276" to="1276"/>
+        <scroll column="9" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="false" name="jl1.0.1.jar"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

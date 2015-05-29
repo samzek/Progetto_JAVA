@@ -1,0 +1,60 @@
+import java.io.*;
+/**
+ * Auto Generated Java Class.
+ */
+public abstract class File_Multimediale implements Serializable {
+  
+  private String titolo,autore,pdfile;
+  private int anno;
+  static final long serialVersionUID = 7452715190087742323L;
+  
+  /** Costruttore della classe astratta */
+  public File_Multimediale(String titolo,String autore,int anno,String pdfile) { 
+   this.titolo = titolo;
+   this.autore = autore;
+   this.anno = anno;
+   this.pdfile = pdfile;
+  }
+ 
+  public void set_titolo(String titolo)
+  {
+    this.titolo = titolo;
+  }
+  public void set_autore(String autore)
+  {
+    this.autore = autore;
+  }
+  public void set_anno(int anno)
+  {
+    this.anno = anno;
+  }
+  public abstract String get_attributi();
+  public abstract void set_attributi(String [] valori);
+  
+  public String [] row()
+  {
+    String anno1 = "" + anno;
+    String [] str = {titolo,autore,anno1,pdfile};
+    return str;
+  }
+  public String toString()
+  {
+    return "Titolo: " + titolo + "\n Autore: " + autore + "\n Anno: " + anno + get_attributi() + "\n PdF: " + pdfile;
+  }
+  public String getPdf()
+  {
+    return pdfile;
+  }
+  public String getTitolo()
+  {
+    return titolo;
+  }
+  public String getAutore()
+  {
+    return autore;
+  }
+  public String getAnno()
+  {
+    return "" + anno;
+  }
+}
